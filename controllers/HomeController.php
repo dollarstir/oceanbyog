@@ -8,10 +8,12 @@ class HomeController
 
             // Fetch team data
             $team = Team::all();
+            $veselOfTheMonth = Ship::vesselOfTheMonth();
+
 
 
             // Pass the data to the view
-            Viewer::view('views/front/index', ['team' => $team]);
+            Viewer::view('views/front/index', ['team' => $team, 'veselOfTheMonth' => $veselOfTheMonth]);
             $content = ob_get_clean();
             Viewer::view('views/layout', [
                 'content' => $content,
@@ -29,6 +31,20 @@ class HomeController
         Viewer::view('views/front/bunker-prices');
         $content = ob_get_clean();
         Viewer::view('views/layout', ['content' => $content, 'title' => "Bunker Prices"]);
+    }
+
+    public static function demoilitionMarket(){
+        ob_start();
+        Viewer::view('views/front/demolition-market');
+        $content = ob_get_clean();
+        Viewer::view('views/layout', ['content' => $content, 'title' => "Demolition Market"]);
+    }
+
+    public static function currencyExchangeRates(){
+        ob_start();
+        Viewer::view('views/front/currency-exchange-rates');
+        $content = ob_get_clean();
+        Viewer::view('views/layout', ['content' => $content, 'title' => "Currency exchange rates"]);
     }
 
 }

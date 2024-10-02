@@ -6,7 +6,7 @@ $app = Settings::appData();
 <div class="section-footer">
     <div class="section-footer__top"></div>
     <div class="section-footer__logo">
-        <a href="index.html"><img src="<?=BASE_URL;?><?=$app->logo;?>" alt="Go Shipping"></a>
+        <a href="home"><img src="<?=BASE_URL;?><?=$app->logo;?>" alt="Go Shipping"></a>
     </div>
     <div class="section-footer__cols">
         <div class="section-footer__col section-footer__company">
@@ -106,24 +106,24 @@ $app = Settings::appData();
     <div class="site-menu__main">
         <div class="site-menu__main-l1">
             <div class="site-menu__main-l2">
-                <a class="site-menu__item site-menu__item__ships" href="ships">
+                <a class="site-menu__item site-menu__item__ships" href="<?=BASE_URL;?>ships">
                     <img src="<?=BASE_URL;?>assets/media/images/site-menu-icon-ships.svg" alt="Ships for Sale">
                     <span class="site-menu__item__caption">Ships for Sale</span>
                     <span class="site-menu__item__decor"></span>
                 </a>
-                <a class="site-menu__item site-menu__item__addyourvessel" href="add-your-vessel">
+                <a class="site-menu__item site-menu__item__addyourvessel" href="<?=BASE_URL;?>add-your-vessel">
                     <img src="<?=BASE_URL;?>assets/media/images/site-menu-icon-addyourvessel.svg" alt="Add your Vessel">
                     <span class="site-menu__item__caption">Add your Vessel</span>
                     <span class="site-menu__item__decor"></span>
                 </a>
             </div>
             <div class="site-menu__main-l2">
-                <a class="site-menu__item site-menu__item__snp" href="#snp">
+                <a class="site-menu__item site-menu__item__snp" href="<?=BASE_URL;?>home#snp">
                     <img src="<?=BASE_URL;?>assets/media/images/site-menu-icon-snp.svg" alt="Sale &amp; Purchase">
                     <span class="site-menu__item__caption">Sale &amp; Purchase</span>
                     <span class="site-menu__item__decor"></span>
                 </a>
-                <a class="site-menu__item site-menu__item__chartering" href="#chartering">
+                <a class="site-menu__item site-menu__item__chartering" href="<?=BASE_URL;?>home#chartering">
                     <img src="<?=BASE_URL;?>assets/media/images/site-menu-icon-chartering.svg" alt="Chartering">
                     <span class="site-menu__item__caption">Chartering</span>
                     <span class="site-menu__item__decor"></span>
@@ -132,7 +132,7 @@ $app = Settings::appData();
         </div>
         <div class="site-menu__main-l1">
             <div class="site-menu__main-l2">
-                <a class="site-menu__item site-menu__item__shipmanagement" href="#ship-management">
+                <a class="site-menu__item site-menu__item__shipmanagement" href="<?=BASE_URL;?>home#ship-management">
                     <img src="<?=BASE_URL;?>assets/media/images/site-menu-icon-shipmanagement.svg" alt="Ship Management">
                     <span class="site-menu__item__caption">Ship Management</span>
                     <span class="site-menu__item__decor"></span>
@@ -158,7 +158,7 @@ $app = Settings::appData();
         </div>
     </div>
 
-    <img src="<?=BASE_URL;?>assets/media/images/go-shipping.svg" alt="Go Shipping" class="site-menu__logo">
+    <img src="<?=BASE_URL.$app->logo;?>" alt="<?=$app->name;?>" class="site-menu__logo">
 </div>
 
 <div class="newsletter__backdrop" style="display:none"></div>
@@ -231,7 +231,7 @@ $app = Settings::appData();
                     <div class="newsletter-ui__ctrl-btns__notice">
                         Fields marked with * are compulsory
                         <br>
-                        <br>By clicking &quot;Subscribe&quot; you agree that you have read <br>and consent to our <a href="privacy.html">privacy policy</a>
+                        <br>By clicking &quot;Subscribe&quot; you agree that you have read <br>and consent to our <a href="privacy">privacy policy</a>
                     </div>
                     <input type="button" value="Clear Form">
                     <input type="submit" value="Subscribe">

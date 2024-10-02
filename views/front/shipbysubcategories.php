@@ -106,22 +106,22 @@ foreach ($relatedCategories as $index =>  $category) {
                 <span>in Category Double Ended Ferries</span>
             </div>
 
-            <div class="shipview__list__order">
-                Order
-                <select onchange="window.location = this.value">
-                    <option value="?sort=reference-number&order=ascending" selected>Reference number</option>
-                    <option value="?sort=year-of-blt&order=ascending">Year of Blt</option>
-                    <option value="?sort=length&order=ascending">Length</option>
-                </select>
-                <a href="ships/double-end-ferries6131.html?order=descending"><img src="<?=BASE_URL;?>/assets/media/images/icon-sort-asc.svg" alt="Sort ascending"></a>
-            </div>
+<!--            <div class="shipview__list__order">-->
+<!--                Order-->
+<!--                <select onchange="window.location = this.value">-->
+<!--                    <option value="?sort=reference-number&order=ascending" selected>Reference number</option>-->
+<!--                    <option value="?sort=year-of-blt&order=ascending">Year of Blt</option>-->
+<!--                    <option value="?sort=length&order=ascending">Length</option>-->
+<!--                </select>-->
+<!--                <a href=""><img src="--><?php //=BASE_URL;?><!--/assets/media/images/icon-sort-asc.svg" alt="Sort ascending"></a>-->
+<!--            </div>-->
 
 
             <div class="shipview__list__gap2"></div>
 
 
             <?php foreach ($ships as $ship): ?>
-                <div class="shipview__ship" id="go-<?= htmlspecialchars($ship->id ?? 'unknown'); ?>" data-id="<?= htmlspecialchars($ship->id ?? 'unknown'); ?>">
+                <div class="shipview__ship" id="OWP-<?= htmlspecialchars($ship->id ?? 'unknown'); ?>" data-id="<?= htmlspecialchars($ship->id ?? 'unknown'); ?>">
                     <div class="shipview__ship__main-img" style="background-image:url('<?= BASE_URL . htmlspecialchars($ship->thumbnail ?? 'assets/media/images/default-ship.jpg'); ?>')"></div>
                     <div class="shipview__ship__main">
                         <div class="shipview__ship__content">

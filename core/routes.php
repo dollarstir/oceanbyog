@@ -13,8 +13,17 @@ return [
     }),
 
     new Route('/ships/{id}', function ($context) {
-        ShipController::getShipsByCategor($context['id']);
+        ShipController::getShipsByCategory($context['id']);
     }),
+
+    // Example of defining a route for displaying ships by subcategory
+//    new Route('/ships/{id}/{page?}', function ($context) {
+//        $subcategoryId = $context['id'];
+//        $page = isset($context['page']) ? (int)$context['page'] : 1;  // Default to page 1 if not set
+//        ShipController::getShipsByCategory($subcategoryId, $page);
+//    }),
+
+
 
     new Route('/ship/{shipid}', function ($context) {
         ShipController::getShipDetail($context['shipid']);
@@ -27,8 +36,11 @@ return [
     new Route('/bunker-prices', function () {
         HomeController::bunkerPrices    ();
     }),
-    new Route('/newpackage', function () {
-        AdminController::addPackage();
+    new Route('/demolition-market', function () {
+        HomeController::demoilitionMarket();
+    }),
+    new Route('/currency-exchange-rates', function () {
+        HomeController::currencyExchangeRates();
     })
     // Add more routes as necessary
 ];

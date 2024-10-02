@@ -148,28 +148,28 @@ $app  = Settings::appData();
 	</div>
 
 	<div class="section-newsmenu__item">
-		<a href="currency-exchange-rates.html"><span class="section-newsmenu__img section-newsmenu__img-currency-exchange-rates"></span></a>
+		<a href="currency-exchange-rates"><span class="section-newsmenu__img section-newsmenu__img-currency-exchange-rates"></span></a>
 		<div class="section-newsmenu__descr">
-			<a href="currency-exchange-rates.html">Exchange Rates</a>
+			<a href="currency-exchange-rates">Exchange Rates</a>
 			Daily Updated <br> Currency Exchange Rates
 		</div>
 	</div>
 
 	<div class="section-newsmenu__item">
-		<a href="demolition-market.html"><span class="section-newsmenu__img section-newsmenu__img-demolition-market"></span></a>
+		<a href="demolition-market"><span class="section-newsmenu__img section-newsmenu__img-demolition-market"></span></a>
 		<div class="section-newsmenu__descr">
-			<a href="demolition-market.html">Demolition Market</a>
+			<a href="demolition-market">Demolition Market</a>
 			Weekly Indicative Scrap <br> Price Levels Worldwide
 		</div>
 	</div>
 
-	<div class="section-newsmenu__item">
-		<a href="news.html"><span class="section-newsmenu__img section-newsmenu__img-news"></span></a>
-		<div class="section-newsmenu__descr">
-			<a href="news.html">Go Shipping News</a>
-			Our latest news &amp; announcements
-		</div>
-	</div>
+<!--	<div class="section-newsmenu__item">-->
+<!--		<a href="news.html"><span class="section-newsmenu__img section-newsmenu__img-news"></span></a>-->
+<!--		<div class="section-newsmenu__descr">-->
+<!--			<a href="news.html">Go Shipping News</a>-->
+<!--			Our latest news &amp; announcements-->
+<!--		</div>-->
+<!--	</div>-->
 
 	<div class="section-newsmenu__gap"></div>
 </div>

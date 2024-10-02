@@ -1,93 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<!-- Mirrored from www.go-shipping.net/demolition-market by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 25 Sep 2024 14:46:35 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Demolition Market - Go Shipping</title>
-<link rel="icon" href="media/images/favicon.png" type="image/png">
-<script type="text/javascript" src="media/js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="media/js/main685f.js?1709216227"></script>
-<link rel="stylesheet" href="media/css/main1c6f.css?1643015519" type="text/css">
-<link rel="canonical" href="demolition-market.html">
-
-
-<script type="text/javascript">
-document.nk = "9971754adaff9a00c5034fbf9d29e251a28461a0";
-document.pct = 1
-</script>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-798371384"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag() {
-	dataLayer.push(arguments);
-}
-
-let consentValue = document.cookie.indexOf("privp_aware") == -1 ? "denied" : "granted";
-gtag("consent", "default", {
-	"ad_storage": consentValue,
-	"ad_user_data": consentValue,
-	"ad_personalization": consentValue,
-	"analytics_storage": consentValue
-});
-
-gtag("js", new Date());
-gtag("config", "AW-798371384");
-gtag("config", "G-3G39WRXWN7");
-</script>
-
-
-</head>
-
-<body>
+<?php
+$app = Settings::appData();
+;?>
 
 <div id="top" class=" opage">
 <div id="header" class="section-header">
 	<div class="section-header__menuicon">
-		<img src="media/images/icon-menu.svg" alt="Menu">
+		<img src="<?=BASE_URL;?>assets/media/images/icon-menu.svg" alt="Menu">
 		<br>Menu
 	</div>
 
 	<div class="section-header__logo">
-		<a href="index.php"><img src="media/images/go-shipping-op.svg" alt="Go Shipping"></a>
+		<a href="home"><img src="<?=BASE_URL.$app->logo;?>" alt="$app->logo"></a>
 	</div>
 
 	<div class="section-header__main-menu">
 		<div class="main-menu-item">
-			<a href="index.php#snp">S&amp;P</a>
+			<a href="home#snp">S&amp;P</a>
 			<div class="main-menu-item__undeline"></div>
 		</div>
 		<div class="main-menu-item">
-			<a href="index.php#chartering">Chartering</a>
+			<a href="home#chartering">Chartering</a>
 			<div class="main-menu-item__undeline"></div>
 		</div>
 		<div class="main-menu-item">
-			<a href="index.php#ship-management">Ship Management</a>
+			<a href="home#ship-management">Ship Management</a>
 			<div class="main-menu-item__undeline"></div>
 		</div>
 		<div class="main-menu-item">
-			<a href="ships.php">Ships for Sale</a>
+			<a href=<?=BASE_URL;?>ships">Ships for Sale</a>
 			<div class="main-menu-item__undeline"></div>
 		</div>
 	</div>
 
 	<div class="section-header__add-your-vessel">
-		<a href="add-your-vessel.html" class="section-header__addvessel-link"><span>Add your Vessel</span></a>
+		<a href="add-your-vessel" class="section-header__addvessel-link"><span>Add your Vessel</span></a>
 	</div>
 </div>
 <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="nav">
 	<li>You are here:</li>
 	<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		<a itemprop="item" href="index.php"><span itemprop="name">Home</span></a>
+		<a itemprop="item" href="home"><span itemprop="name">Home</span></a>
 		<meta itemprop="position" content="1" />
 	</li>
 	<li>/</li>
 	<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		<a itemprop="item" href="demolition-market.html" class="nav-active"><span itemprop="name">Demolition Market</span></a>
+		<a itemprop="item" href="demolition-market" class="nav-active"><span itemprop="name">Demolition Market</span></a>
 		<meta itemprop="position" content="2" />
 	</li>
 </ol>
@@ -106,7 +63,7 @@ gtag("config", "G-3G39WRXWN7");
 		</div>
 
 		<div class="section-newscnt__date">
-			25 September 2024
+			<?=date("jS F Y");?>
 		</div>
 
 		<div class="section-newscnt__gap2"></div>
@@ -149,7 +106,7 @@ Week 37: 'approx' demo price levels for each breaking nation is as follows and d
 				&nbsp;&mdash;&nbsp; Last update: 25 Jul 2024
 				&nbsp;&mdash;&nbsp; Click to enlarge</span>
 			<br>
-			<a href="media/images/news/demolition-market.jpg" target="_blank"><img src="media/images/news/demolition-market5eaf.jpg?1721897796" alt="Demolition Market Chart"></a>
+			<a href="<?=BASE_URL;?>assets/media/images/news/demolition-market.jpg" target="_blank"><img src="<?=BASE_URL;?>assets/media/images/news/demolition-market5eaf.jpg?1721897796" alt="Demolition Market Chart"></a>
 		</div>
 		<p>Annual Demolition Sales</p>
 		<div class="section-newscnt__tables-context-single">
@@ -424,17 +381,17 @@ Week 37: 'approx' demo price levels for each breaking nation is as follows and d
 	<div class="section-newsmenu__gap"></div>
 
 	<div class="section-newsmenu__item">
-		<a href="bunker-prices.html"><span class="section-newsmenu__img section-newsmenu__img-bunker-prices"></span></a>
+		<a href="bunker-prices"><span class="section-newsmenu__img section-newsmenu__img-bunker-prices"></span></a>
 		<div class="section-newsmenu__descr">
-			<a href="bunker-prices.html">Bunker Prices</a>
+			<a href="bunker-prices">Bunker Prices</a>
 			Daily Indicative <br> Bunker Prices in USD/MT&nbsp; Worldwide&nbsp;
 		</div>
 	</div>
 
 	<div class="section-newsmenu__item">
-		<a href="currency-exchange-rates.html"><span class="section-newsmenu__img section-newsmenu__img-currency-exchange-rates"></span></a>
+		<a href="currency-exchange-rates"><span class="section-newsmenu__img section-newsmenu__img-currency-exchange-rates"></span></a>
 		<div class="section-newsmenu__descr">
-			<a href="currency-exchange-rates.html">Exchange Rates</a>
+			<a href="currency-exchange-rates">Exchange Rates</a>
 			Daily Updated <br> Currency Exchange Rates
 		</div>
 	</div>
@@ -447,262 +404,16 @@ Week 37: 'approx' demo price levels for each breaking nation is as follows and d
 		</div>
 	</div>
 
-	<div class="section-newsmenu__item">
-		<a href="news.html"><span class="section-newsmenu__img section-newsmenu__img-news"></span></a>
-		<div class="section-newsmenu__descr">
-			<a href="news.html">Go Shipping News</a>
-			Our latest news &amp; announcements
-		</div>
-	</div>
+<!--	<div class="section-newsmenu__item">-->
+<!--		<a href="news.html"><span class="section-newsmenu__img section-newsmenu__img-news"></span></a>-->
+<!--		<div class="section-newsmenu__descr">-->
+<!--			<a href="news.html">Go Shipping News</a>-->
+<!--			Our latest news &amp; announcements-->
+<!--		</div>-->
+<!--	</div>-->
 
 	<div class="section-newsmenu__gap"></div>
 </div>
 
 	<div class="section-newscnt__gap4"></div>
 </div>
-
-<div class="section-footer">
-	<div class="section-footer__top"></div>
-	<div class="section-footer__logo">
-		<a href="index.php"><img src="media/images/go-shipping-op.svg" alt="Go Shipping"></a>
-	</div>
-	<div class="section-footer__cols">
-		<div class="section-footer__col section-footer__company">
-			<div class="section-footer__goshipping">Go Shipping &amp; Management Inc</div>
-
-			<div class="section-footer__info">
-				<div>5th Sachtouri Str
-					<span class="section-footer__info__separator">|</span>
-					P.C. 18536
-					<span class="section-footer__info__separator">|</span>
-					Piraeus, Hellas
-				</div>
-				<div>T: <a href="tel:00302104294247">+30 210 429 4247</a>
-					<span class="section-footer__info__separator section-footer__info__separator-fax">|</span>
-					<span class="section-footer__info__fax">F: <a href="tel:00302104293212">+30 210 429 3212</a></span>
-				</div>
-				<div>E: <a href="#contact" class="cnt-nf">Contact</a></div>
-			</div>
-
-			<div class="section-footer__social-icons">
-				<a href="https://www.linkedin.com/company/17992115/" target="_blank"><img src="media/images/icon-linkedin-ft.svg" alt="LinkedIn" class="section-footer__social-icon section-footer__social-icon-linkedin"></a>
-
-				<a href="https://www.youtube.com/channel/UCY7ffVJ1RfnpnDUPHrRbcKw" target="_blank"><img src="media/images/icon-youtube-ft.svg" alt="YouTube" class="section-footer__social-icon section-footer__social-icon-youtube"></a>
-			</div>
-
-			<div class="section-footer__apps">
-				<a href="https://play.google.com/store/apps/details?id=com.go_shipping.goshipping" target="_blank" rel="noopener"><img alt="Get it on Google Play" src="media/images/icon-app-google-play.png" /></a>
-
-				<a href="https://itunes.apple.com/us/app/go-shipping/id1435606488?mt=8" target="_blank" rel="noopener"><img alt="Get it on App Store" src="media/images/icon-app-app-store.svg" /></a>
-			</div>
-
-			<div class="section-footer__lang">
-				<span class="section-footer__lang--active">EN</span>
-				<span class="section-footer__lang__separator">|</span>
-				<a href="french.html">FR</a>
-				<span class="section-footer__lang__separator">|</span>
-				<a href="spanish.html">ES</a>
-				<span class="section-footer__lang__separator">|</span>
-				<a href="turkish.html">TR</a>
-			</div>
-		</div>
-
-		<div class="section-footer__col section-footer__col-gap"></div>
-
-		<div class="section-footer__col section-footer__newsletter">
-			<div class="section-footer__newsletter-title">Subscribe to our news</div>
-
-			<p class="section-footer__newsletter-message">Please enter your email address to have news,
-				special offers and listing announcements delivered directly to your inbox.</p>
-
-			<form name="frm_newsletter_static" method="post" onsubmit="return false">
-				<input type="hidden" name="key" value="d972ea214edec79184f5c418da04a9aa14be3726">
-				<div class="section-footer__newsletter-form">
-					<input type="email" name="email" placeholder="Email" value="">
-					<input type="image" src="media/images/icon-newsletter.svg">
-				</div>
-			</form>
-		</div>
-
-		<div class="section-footer__col section-footer__col-gap"></div>
-
-		<div class="section-footer__col section-footer__associations">
-			<p>Member of <br>
-				<a href="https://www.wima.gr/el/" target="_blank" rel="noopener nofollow"><img src="media/images/wima.svg" alt="WIMA" class="section-footer__wima-img"></a>
-			</p>
-			<p>Visit <br>
-				<a href="https://www.go-yachting.com/" target="_blank"><img src="media/images/go-yachting.svg" alt="Go Yachting" class="section-footer__goyachting-img"></a>
-			</p>
-		</div>
-	</div>
-	<div class="section-footer__bottom"></div>
-</div>
-
-<div class="section-bottom">
-	<div>
-		&copy; 2005-2024 Go Shipping &amp; Management Inc
-		&nbsp; &ndash; &nbsp;
-		<a href="privacy.html">Privacy Policy</a>
-	</div>
-	<div><a href="#top"><img src="media/images/icon-top.svg" alt="Go to top"></a></div>
-</div>
-
-</div>
-
-<div id="image-loader"></div>
-
-<div class="site-menu" style="display:none">
-
-	<div class="site-menu__sideicon site-menu__sideicon-back">
-		<img src="media/images/site-menu-icon-back.svg" alt="Back">
-		<br>Back
-	</div>
-	<div class="site-menu__sideicon site-menu__sideicon-contact">
-		<img src="media/images/site-menu-icon-contact.svg" alt="Contact">
-		<br>Contact
-	</div>
-
-	<div class="site-menu__main">
-		<div class="site-menu__main-l1">
-			<div class="site-menu__main-l2">
-				<a class="site-menu__item site-menu__item__ships" href="ships.php">
-					<img src="media/images/site-menu-icon-ships.svg" alt="Ships for Sale">
-					<span class="site-menu__item__caption">Ships for Sale</span>
-					<span class="site-menu__item__decor"></span>
-				</a>
-				<a class="site-menu__item site-menu__item__addyourvessel" href="add-your-vessel.html">
-					<img src="media/images/site-menu-icon-addyourvessel.svg" alt="Add your Vessel">
-					<span class="site-menu__item__caption">Add your Vessel</span>
-					<span class="site-menu__item__decor"></span>
-				</a>
-			</div>
-			<div class="site-menu__main-l2">
-				<a class="site-menu__item site-menu__item__snp" href="index.php#snp">
-					<img src="media/images/site-menu-icon-snp.svg" alt="Sale &amp; Purchase">
-					<span class="site-menu__item__caption">Sale &amp; Purchase</span>
-					<span class="site-menu__item__decor"></span>
-				</a>
-				<a class="site-menu__item site-menu__item__chartering" href="index.php#chartering">
-					<img src="media/images/site-menu-icon-chartering.svg" alt="Chartering">
-					<span class="site-menu__item__caption">Chartering</span>
-					<span class="site-menu__item__decor"></span>
-				</a>
-			</div>
-		</div>
-		<div class="site-menu__main-l1">
-			<div class="site-menu__main-l2">
-				<a class="site-menu__item site-menu__item__shipmanagement" href="index.php#ship-management">
-					<img src="media/images/site-menu-icon-shipmanagement.svg" alt="Ship Management">
-					<span class="site-menu__item__caption">Ship Management</span>
-					<span class="site-menu__item__decor"></span>
-				</a>
-				<a class="site-menu__item site-menu__item__people" href="index.php#contact">
-					<img src="media/images/site-menu-icon-people.svg" alt="Our People">
-					<span class="site-menu__item__caption">Our People</span>
-					<span class="site-menu__item__decor"></span>
-				</a>
-			</div>
-			<div class="site-menu__main-l2">
-				<a class="site-menu__item site-menu__item__news" href="news.html">
-					<img src="media/images/site-menu-icon-news.svg" alt="Go Shipping News">
-					<span class="site-menu__item__caption">Go Shipping News</span>
-					<span class="site-menu__item__decor"></span>
-				</a>
-				<a class="site-menu__item site-menu__item__marketnews" href="index.php#market-news">
-					<img src="media/images/site-menu-icon-marketnews.svg" alt="Market News">
-					<span class="site-menu__item__caption">Market News</span>
-					<span class="site-menu__item__decor"></span>
-				</a>
-			</div>
-		</div>
-	</div>
-
-	<img src="media/images/go-shipping.svg" alt="Go Shipping" class="site-menu__logo">
-</div>
-
-<div class="newsletter__backdrop" style="display:none"></div>
-
-<div class="newsletter-container" style="display:none">
-
-	<div class="newsletter-wait">
-		Please wait ...
-	</div>
-
-	<div class="newsletter-msg newsletter-success">
-		<div>Thank you!</div>
-		<p>You have successfully subscribed to our newsletter.</p>
-		<button>Close</button>
-	</div>
-
-	<div class="newsletter-msg newsletter-error">
-		<div>Error</div>
-		<p>...</p>
-		<button>Close</button>
-	</div>
-
-	<div class="newsletter-ui">
-		<div class="newsletter-ui__close">
-			<img src="media/images/icon-newsletter-close.svg" alt="Close">
-		</div>
-
-		<div class="newsletter-ui__inner">
-			<form name="frm_newsletter_popup" method="post">
-				<div class="newsletter-ui__title">
-					<img src="media/images/icon-newsletter-title.svg" alt="Close">
-					<div>Subscribe <br>to our newsletter</div>
-				</div>
-
-				<div class="newsletter-ui__form">
-					<div class="newsletter-ui__form__item newsletter-ui__form__item-left">
-						Name *
-						<div class="newsletter-ui__form__item__input-box newsletter-ui__form__item__input-box--name">
-							<input type="text" name="name" value="" placeholder="your name">
-						</div>
-					</div>
-
-					<div class="newsletter-ui__form__item newsletter-ui__form__item-right">
-						Company Name
-						<div class="newsletter-ui__form__item__input-box newsletter-ui__form__item__input-box--company-name">
-							<input type="text" name="company_name" value="" placeholder="your company name">
-						</div>
-					</div>
-
-					<div class="newsletter-ui__form__item-separator"></div>
-
-					<div class="newsletter-ui__form__item newsletter-ui__form__item-left">
-						Email *
-						<div class="newsletter-ui__form__item__input-box newsletter-ui__form__item__input-box--email">
-							<input type="email" name="email" value="" placeholder="your email">
-						</div>
-					</div>
-
-					<div class="newsletter-ui__form__item newsletter-ui__form__item-right">
-						Contact number *
-						<div class="newsletter-ui__form__item__input-box newsletter-ui__form__item__input-box--contact-number">
-							<input type="text" name="contact_number" value="" placeholder="your contact number">
-						</div>
-					</div>
-
-					<div class="newsletter-ui__form__item-separator"></div>
-				</div>
-
-				<div class="newsletter-ui__ctrl-btns">
-					<div class="newsletter-ui__ctrl-btns__notice">
-						Fields marked with * are compulsory
-						<br>
-						<br>By clicking &quot;Subscribe&quot; you agree that you have read <br>and consent to our <a href="privacy.html">privacy policy</a>
-					</div>
-					<input type="button" value="Clear Form">
-					<input type="submit" value="Subscribe">
-				</div>
-
-				<div class="newsletter-ui__end"></div>
-			</form>
-		</div>
-	</div>
-</div>
-
-</body>
-
-<!-- Mirrored from www.go-shipping.net/demolition-market by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 25 Sep 2024 14:46:36 GMT -->
-</html>

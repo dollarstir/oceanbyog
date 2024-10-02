@@ -76,6 +76,11 @@ class Ship extends Model
     }
 
     public static function vesselOfTheMonth(){
-        $sql = "SELECT *  FROM ship ORDER BY id DESC LIMIT 4";
+        $sql = "
+                    SELECT s.name,s.length,s.id,s.thumbnail,c.id as category_id,c.name as category_name  FROM ship s LEFT JOIN  ship_categories sc ON s.id=sc.ship_id
+                    LEFT JOIN categories c ON sc.category_id=c.id                                                
+                    ORDER BY id DESC 
+                    LIMIT 4";
+        return self::customQuery($sql);
     }
 }

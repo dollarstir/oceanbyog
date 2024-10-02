@@ -151,112 +151,55 @@ var fp_image_sources = [
 	</div>
 
 	<div class="section-newsmenu__item">
-		<a href="currency-exchange-rates.html"><span class="section-newsmenu__img section-newsmenu__img-currency-exchange-rates"></span></a>
+		<a href="currency-exchange-rates"><span class="section-newsmenu__img section-newsmenu__img-currency-exchange-rates"></span></a>
 		<div class="section-newsmenu__descr">
-			<a href="currency-exchange-rates.html">Exchange Rates</a>
+			<a href="currency-exchange-rates">Exchange Rates</a>
 			Daily Updated <br> Currency Exchange Rates
 		</div>
 	</div>
 
 	<div class="section-newsmenu__item">
-		<a href="demolition-market.html"><span class="section-newsmenu__img section-newsmenu__img-demolition-market"></span></a>
+		<a href="demolition-market"><span class="section-newsmenu__img section-newsmenu__img-demolition-market"></span></a>
 		<div class="section-newsmenu__descr">
-			<a href="demolition-market.html">Demolition Market</a>
+			<a href="demolition-market">Demolition Market</a>
 			Weekly Indicative Scrap <br> Price Levels Worldwide
 		</div>
 	</div>
 
-	<div class="section-newsmenu__item">
-		<a href="news.html"><span class="section-newsmenu__img section-newsmenu__img-news"></span></a>
-		<div class="section-newsmenu__descr">
-			<a href="news.html">Go Shipping News</a>
-			Our latest news &amp; announcements
-		</div>
-	</div>
+<!--	<div class="section-newsmenu__item">-->
+<!--		<a href="news.html"><span class="section-newsmenu__img section-newsmenu__img-news"></span></a>-->
+<!--		<div class="section-newsmenu__descr">-->
+<!--			<a href="news.html">Go Shipping News</a>-->
+<!--			Our latest news &amp; announcements-->
+<!--		</div>-->
+<!--	</div>-->
 
 	<div class="section-newsmenu__gap"></div>
 </div>
-<style type="text/css">
-.section-home-promotions__item1 { background-image: url(assets/media/images/ships/1129-01-promoc359.jpg?1708610159); }
-.section-home-promotions__item2 { background-image: url(assets/media/images/ships/785-01-promodfc5.jpg?1576572243); }
-.section-home-promotions__item3 { background-image: url(assets/media/images/ships/1373-01-promo75b5.jpg?1646207389); }
-.section-home-promotions__item4 { background-image: url(assets/media/images/ships/833-01-promoa5b8.jpg?1507687192); }
-.section-home-promotions__item5 { background-image: url(assets/media/images/ships/1315-01-promo0fb5.jpg?1623230909); }
-.section-home-promotions__item6 { background-image: url(assets/media/images/ships/2-01-promo1fa1.jpg?1591776977); }
-.section-home-promotions__item7 { background-image: url(assets/media/images/ships/1379-01-promo8da6.jpg?1648110820); }
-.section-home-promotions__item8 { background-image: url(assets/media/images/ships/1487-01-promoe81a.jpg?1689343917); }
-.section-home-promotions__item9 { background-image: url(assets/media/images/ships/1452-01-promob63b.jpg?1679066177); }
-.section-home-promotions__item10 { background-image: url(assets/media/images/ships/841-01-promo170d.jpg?1508402038); }
-.section-home-promotions__item11 { background-image: url(assets/media/images/ships/289-01-promoc828.jpg?1723186088); }
-.section-home-promotions__item12 { background-image: url(assets/media/images/ships/478-01-promob7b6.jpg?1611564996); }
-.section-home-promotions__item13 { background-image: url(assets/media/images/ships/1439-01-promo620e.jpg?1673422769); }
-.section-home-promotions__item14 { background-image: url(assets/media/images/ships/1523-01-promo9639.jpg?1699015229); }
 
-</style>
-<div id="vessels-of-the-month" class="section-home-promotions">
-	<h2 class="section-home-promotions__title">Vessels of the month</h2>
-	<div class="section-home-promotions__items-frame"><div class="section-home-promotions__items">
-		<div class="section-home-promotions__item__separator"></div>
-		<div class="section-home-promotions__item section-home-promotions__item1">
-			<a href="ships/double-end-ferries9ba9.html?page=3#go-1120" alt="Go 1120 - Double Ended Ferry - 73m">Go 1120 - Double Ended Ferry - 73m</a>
-		</div>
-		<div class="section-home-promotions__item__separator"></div>
-		<div class="section-home-promotions__item section-home-promotions__item2">
-			<a href="ships/landing-crafts.html#go-0825" alt="Go 0825 - Landing Craft - 68m">Go 0825 - Landing Craft - 68m</a>
-		</div>
-		<div class="section-home-promotions__item__separator"></div>
-		<div class="section-home-promotions__item section-home-promotions__item3">
-			<a href="ships/cruisers.html#go-1418" alt="Go 1418 - Day Cruiser - 45m">Go 1418 - Day Cruiser - 45m</a>
-		</div>
-		<div class="section-home-promotions__item__separator"></div>
-		<div class="section-home-promotions__item section-home-promotions__item4">
-			<a href="ships/double-end-ferries4658.html?page=2#go-0867" alt="Go 0867 - Double Ended Ferry - 93m">Go 0867 - Double Ended Ferry - 93m</a>
-		</div>
-		<div class="section-home-promotions__item__separator"></div>
-		<div class="section-home-promotions__item section-home-promotions__item5">
-			<a href="ships/catamaran.html#go-1366" alt="Go 1366 - Passenger Catamaran - 29m">Go 1366 - Passenger Catamaran - 29m</a>
-		</div>
-		<div class="section-home-promotions__item__separator"></div>
-		<div class="section-home-promotions__item section-home-promotions__item6">
-			<a href="ships/landing-crafts.html#go-0012" alt="Go 0012 - Landing Craft - 44m">Go 0012 - Landing Craft - 44m</a>
-		</div>
-		<div class="section-home-promotions__item__separator"></div>
-		<div class="section-home-promotions__item section-home-promotions__item7">
-			<a href="ships/landing-crafts4658.html?page=2#go-1292" alt="Go 1292 - Landing Craft - 45m">Go 1292 - Landing Craft - 45m</a>
-		</div>
-		<div class="section-home-promotions__item__separator"></div>
-		<div class="section-home-promotions__item section-home-promotions__item8">
-			<a href="ships/catamaran.html#go-1532" alt="Go 1532 - Passenger Catamaran - 28m">Go 1532 - Passenger Catamaran - 28m</a>
-		</div>
-		<div class="section-home-promotions__item__separator"></div>
-		<div class="section-home-promotions__item section-home-promotions__item9">
-			<a href="ships/day-pax-boats.html#go-1490" alt="Go 1490 - Day Passenger Boat - 23m">Go 1490 - Day Passenger Boat - 23m</a>
-		</div>
-		<div class="section-home-promotions__item__separator"></div>
-		<div class="section-home-promotions__item section-home-promotions__item10">
-			<a href="ships/landing-crafts4658.html?page=2#go-0883" alt="Go 0883 - Landing Craft - 78m">Go 0883 - Landing Craft - 78m</a>
-		</div>
-		<div class="section-home-promotions__item__separator"></div>
-		<div class="section-home-promotions__item section-home-promotions__item11">
-			<a href="ships/landing-crafts.html#go-0300" alt="Go 0300 - Landing Craft - 80m">Go 0300 - Landing Craft - 80m</a>
-		</div>
-		<div class="section-home-promotions__item__separator"></div>
-		<div class="section-home-promotions__item section-home-promotions__item12">
-			<a href="ships/double-end-ferries4658.html?page=2#go-0514" alt="Go 0514 - Double Ended Ferry - 98m">Go 0514 - Double Ended Ferry - 98m</a>
-		</div>
-		<div class="section-home-promotions__item__separator"></div>
-		<div class="section-home-promotions__item section-home-promotions__item13">
-			<a href="ships/double-end-ferries9ba9.html?page=3#go-1476" alt="Go 1476 - Double Ended Ferry - 60m">Go 1476 - Double Ended Ferry - 60m</a>
-		</div>
-		<div class="section-home-promotions__item__separator"></div>
-		<div class="section-home-promotions__item section-home-promotions__item14">
-			<a href="ships/aht-ahts.html#go-1563" alt="Go 1563 - AHT - 43m">Go 1563 - AHT - 43m</a>
-		</div>
 
-	</div></div>
-</div>
 
-<div id="snp" class="section-home-snp">
+    <div id="vessels-of-the-month" class="section-home-promotions">
+        <h2 class="section-home-promotions__title">Vessels of the Month</h2>
+        <div class="section-home-promotions__items-frame">
+            <div class="section-home-promotions__items">
+                <?php foreach ($veselOfTheMonth as $index => $vessel): ?>
+                    <div class="section-home-promotions__item__separator"></div>
+                    <div class="section-home-promotions__item section-home-promotions__item<?= $index + 1 ?>"
+                         style="background-image: url('<?= $vessel->thumbnail ?>');">
+                        <a href="ships/<?= strtolower(str_replace(' ', '-', $vessel->category_id)) ?>#OWP-<?= $vessel->id ?>"
+                           alt="<?= "OWP {$vessel->id} - {$vessel->name} - {$vessel->length}m" ?>">
+                            <?= "OWP {$vessel->id} - {$vessel->name} - {$vessel->length}m" ?>
+                        </a>
+                    </div>
+                <?php endforeach; ?>
+                <div class="section-home-promotions__item__separator"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="snp" class="section-home-snp">
 	<div class="section-home-snp__colA">
 		<div class="section-home-article__title section-home-snp__colA1 section-home-article__row1">
 			<h2>Sale &amp; <span>Purchase</span></h2>

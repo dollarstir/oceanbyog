@@ -14,7 +14,7 @@ class ShipController
         Viewer::view('views/layout', ['content' => $content,'title'=>"Ships and Commercial Vessels"]);
     }
 
-    public static function getShipsByCategor($subcategoryId)
+    public static function getShipsByCategory($subcategoryId)
     {
         // Fetch ships using the subcategory ID
         $result = Ship::getShipsBySubcategory($subcategoryId);
