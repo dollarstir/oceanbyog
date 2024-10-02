@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10287 969.515 15.871 15.871">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9aa6af;
+      }
+    </style>
+  </defs>
+  <g id="Group_2900" data-name="Group 2900" transform="translate(10287 969.515)">
+    <g id="Group_2899" data-name="Group 2899">
+      <path id="Path_18277" data-name="Path 18277" class="cls-1" d="M14.458,3.472H12.672V0H3.249V3.472H1.414A1.429,1.429,0,0,0,0,4.885v6.1A1.429,1.429,0,0,0,1.414,12.4H3.249v3.472h9.423V12.4h1.785a1.429,1.429,0,0,0,1.414-1.414v-6.1A1.429,1.429,0,0,0,14.458,3.472ZM4.241.992h7.44V3.447H4.241V.992Zm7.44,13.887H4.241V10.415h7.44Zm3.2-5.456H.992V4.885a.435.435,0,0,1,.422-.422H14.458a.435.435,0,0,1,.422.422Z"/>
+      <rect id="Rectangle_1384" data-name="Rectangle 1384" class="cls-1" width="4.96" height="0.992" transform="translate(5.456 10.911)"/>
+      <rect id="Rectangle_1385" data-name="Rectangle 1385" class="cls-1" width="4.96" height="0.992" transform="translate(5.456 12.895)"/>
+      <circle id="Ellipse_680" data-name="Ellipse 680" class="cls-1" cx="0.496" cy="0.496" r="0.496" transform="translate(12.87 7.464)"/>
+      <circle id="Ellipse_681" data-name="Ellipse 681" class="cls-1" cx="0.496" cy="0.496" r="0.496" transform="translate(10.911 7.464)"/>
+    </g>
+  </g>
+</svg>
