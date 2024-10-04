@@ -73,8 +73,8 @@ $app = Settings::appData();
     <?php foreach ($main_categories as $category): ?>
         <div class="shipcats__item">
             <div class="opage-cnt shipcats__item__header">
-                <a href="#"><img src="<?= BASE_URL.$category->main_category_image ?>" alt="<?= $category->main_category_name ?>" class="shipcats__item__img"></a>
-                <h2><a href="#"><?= $category->main_category_name ?></a></h2>
+                <a href="<?=BASE_URL;?>ships"><img src="<?= BASE_URL.$category->main_category_image ?>" alt="<?= $category->main_category_name ?>" class="shipcats__item__img"></a>
+                <h2><a href="<?=BASE_URL;?>ships"><?= $category->main_category_name ?></a></h2>
                 <div class="shipcats__item__arrow-area"><div class="shipcats__item__arrow"></div></div>
             </div>
             <div class="shipcats__item__cnt">
