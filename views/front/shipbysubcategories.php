@@ -119,14 +119,14 @@ foreach ($relatedCategories as $index =>  $category) {
 
             <div class="shipview__list__gap2"></div>
 
-
             <?php foreach ($ships as $ship): ?>
-                <div class="shipview__ship" id="OWP-<?= htmlspecialchars($ship->id ?? 'unknown'); ?>" data-id="<?= htmlspecialchars($ship->id ?? 'unknown'); ?>">
+            <?php $shipImages = Ship::getShipImages($ship->id); ?>
+                <div class="shipview__ship" id="OWP-<?= htmlspecialchars($ship->id ?? 'unknown'); ?>" data-id="<?= htmlspecialchars($ship->id ?? 'unknown'); ?>" data-images="<?=count($shipImages);?>">
                     <div class="shipview__ship__main-img" style="background-image:url('<?= BASE_URL . htmlspecialchars($ship->thumbnail ?? 'assets/media/images/default-ship.jpg'); ?>')"></div>
                     <div class="shipview__ship__main">
                         <div class="shipview__ship__content">
                             <h2>
-                                <a href="ships/double-end-ferries/go-<?= htmlspecialchars($ship->id ?? 'unknown'); ?>.html" class="ship-url">
+                                <a href="<?= BASE_URL; ?>ship/<?= htmlspecialchars($ship->id ?? 'unknown'); ?>" class="ship-url">
                                     OWP <?= htmlspecialchars($ship->id ?? 'Unknown Ship'); ?> - <?= htmlspecialchars($ship->name ?? 'No name'); ?> - <?= htmlspecialchars($ship->length ?? 'N/A'); ?>m
                                 </a>
                             </h2>
@@ -136,7 +136,7 @@ foreach ($relatedCategories as $index =>  $category) {
                             <div class="shipview__ship__content__description">
                                 <p><?= htmlspecialchars($ship->description ?? 'No description available.'); ?></p>
                             </div>
-                            <?php $shipImages = Ship::getShipImages($ship->id); ?>
+
                             <?php if (!empty($shipImages)): ?>
                                 <div class="shipview__ship__content__gallery">
                                     <div class="shipview__ship__content__gallery__previous"></div>
